@@ -1,0 +1,26 @@
+{
+    "data" : [
+        {
+            "id" : 0,
+            "name" : "L'amiral Gauthier",
+            "quickname" : "Gauthier",
+            "sprite" : "npc.png",
+            "greeting" : "Hello mister Tea",
+            "choices" : [
+                {"type" : "dialog", "id" : 0, "text" : "Parle moi de toi"},
+                {"type" : "quest", "id" : 0, "text" : "Tu as besoin d'aide ?"},
+                {"type" : "object", "id" : 0, "text" : "Tu pourrais me filer un truc ..."}
+            ]
+        },
+        {
+            "id" : 1,
+            "name" : "Frère Shampooing",
+            "quickname" : "Shampooing",
+            "sprite" : "npc.png",
+            "greeting" : "Salut !",
+            "choices" : [
+                {"type" : "dialog", "id" : 1, "text" : "Parle moi de toi"}
+            ]
+        },
+    ]
+}

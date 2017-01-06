@@ -1,0 +1,6 @@
+{
+    "editor.snippetSuggestions": "top",
+    "haxe.displayConfigurations": [
+        ["build-linux.hxml"]
+    ]
+}

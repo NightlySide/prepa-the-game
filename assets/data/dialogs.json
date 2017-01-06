@@ -1,0 +1,21 @@
+{
+    "data" : [
+        {
+            "id" : 0,
+            "lines" : [
+                "Je suis l'Amiral Gauthier",
+                "C'est le surnom qu'on me donne ici",
+                "Et surtout je suis ton colloc !"
+            ]
+        },
+        {
+            "id" : 1,
+            "lines" : [
+                "Moi c'est Tim",
+                "Les gens ici m'appellent Frère Shampooing",
+                "Tu sais quoi ?",
+                "J'ai réussi ma fonction python"
+            ]
+        }
+    ]
+}

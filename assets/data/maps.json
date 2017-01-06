@@ -1,0 +1,15 @@
+{
+    "data" : [
+        {
+            "id" : 0,
+            "path" : "home.tmx",
+            "player_spawn" : {"x" : 4, "y" : 4},
+            "entities" : [
+                {"id" : 0, "position" : {"x" : 6, "y" : 2}},
+                {"id" : 1, "position" : {"x" : 5, "y" : 10}}
+            ],
+            "objects" : [],
+            "exits" : []
+        }
+    ]
+}

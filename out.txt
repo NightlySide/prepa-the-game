@@ -1,0 +1,114 @@
+--------- beginning of main
+01-05 07:59:30.368 23679 23710 I trace   : PlayState.hx:83: cellx: 6 celly: 2
+01-05 07:59:30.369 23679 23710 I trace   : PlayState.hx:93: You clicked on : L'amiral Gauthier
+01-05 07:59:30.573 27111 27124 W Ads     : There was a problem getting an ad response. ErrorCode: 0
+01-05 07:59:30.574 27111 27111 W Ads     : Failed to load ad: 0
+01-05 07:59:30.576 27111 27111 I Ads     : Starting ad request.
+01-05 07:59:30.576 27111 27111 I Ads     : Use AdRequest.Builder.addTestDevice("D4905D083C357A1C9EBE5553DBE3C8EC") to get test ads on this device.
+--------- beginning of system
+01-05 07:59:30.625  2930 31390 V PackageManager: DENY ephemeral apps; pkg: com.chrome.canary, status: 2
+01-05 07:59:30.627  2930 31393 V PackageManager: DENY ephemeral apps; pkg: com.chrome.canary, status: 2
+01-05 07:59:30.691  4037  4037 W cr_AwContents: onDetachedFromWindow called when already detached. Ignoring
+01-05 07:59:30.705  4037  4037 I cr_Ime  : ImeThread is not enabled.
+01-05 07:59:30.728  4037  4037 W cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 4037
+01-05 07:59:30.731  4037  4037 W cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 4037
+01-05 07:59:32.204 23679 23710 I trace   : Hud.hx:49: Closing HUD
+01-05 07:59:32.205 23679 23710 I trace   : Hud.hx:56: HUD Closed
+--------- beginning of crash
+01-05 07:59:32.205 23679 23710 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x1c in tid 23710 (GLThread 1322)
+01-05 07:59:32.206  2446  2446 W         : debuggerd: handling request: pid=23679 uid=10119 gid=10119 tid=23710
+01-05 07:59:32.277 23766 23766 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-05 07:59:32.277 23766 23766 F DEBUG   : CM Version: 'unknown'
+01-05 07:59:32.277 23766 23766 F DEBUG   : Build fingerprint: 'Meizu/meizu_PRO5/PRO5:5.1/LMY47D/m86.Flyme_OS_5.1460049852:user/release-keys'
+01-05 07:59:32.277 23766 23766 F DEBUG   : Revision: '0'
+01-05 07:59:32.277 23766 23766 F DEBUG   : ABI: 'arm'
+01-05 07:59:32.277 23766 23766 F DEBUG   : pid: 23679, tid: 23710, name: GLThread 1322  >>> io.github.nightlyside.rpg <<<
+01-05 07:59:32.277 23766 23766 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x1c
+01-05 07:59:32.277 23766 23766 F DEBUG   :     r0 f298aa54  r1 f298aa90  r2 00000001  r3 00000006
+01-05 07:59:32.277 23766 23766 F DEBUG   :     r4 00000000  r5 f298aa98  r6 00000000  r7 f3ddf08c
+01-05 07:59:32.277 23766 23766 F DEBUG   :     r8 0000046c  r9 00000000  sl 00000690  fp 00000000
+01-05 07:59:32.277 23766 23766 F DEBUG   :     ip 00000001  sp f298aa30  lr f3acc1c4  pc f3c4dd4c  cpsr a00f0010
+01-05 07:59:32.281 23766 23766 F DEBUG   : 
+01-05 07:59:32.281 23766 23766 F DEBUG   : backtrace:
+01-05 07:59:32.281 23766 23766 F DEBUG   :     #00 pc 003a4d4c  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.281 23766 23766 F DEBUG   :     #01 pc 002231c0  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.281 23766 23766 F DEBUG   :     #02 pc 002253d8  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.281 23766 23766 F DEBUG   :     #03 pc 003c6c2c  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.281 23766 23766 F DEBUG   :     #04 pc 003c6c2c  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.281 23766 23766 F DEBUG   :     #05 pc 003c4028  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.281 23766 23766 F DEBUG   :     #06 pc 003ceb28  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.281 23766 23766 F DEBUG   :     #07 pc 003cf158  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.281 23766 23766 F DEBUG   :     #08 pc 003cf53c  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #09 pc 003cf7c0  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #10 pc 004c1b94  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #11 pc 0047e6b4  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #12 pc 00463868  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #13 pc 004638a4  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #14 pc 0045a080  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #15 pc 00135f18  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #16 pc 0013f160  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #17 pc 0012d8e0  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #18 pc 0012d910  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #19 pc 004c1b94  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #20 pc 004853dc  /data/app/io.github.nightlyside.rpg-1/lib/arm/libApplicationMain.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #21 pc 0007de78  /data/app/io.github.nightlyside.rpg-1/lib/arm/liblime-legacy.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #22 pc 0006c91c  /data/app/io.github.nightlyside.rpg-1/lib/arm/liblime-legacy.so
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #23 pc 0002ffac  /data/app/io.github.nightlyside.rpg-1/lib/arm/liblime-legacy.so (Java_org_haxe_lime_Lime_onRender+160)
+01-05 07:59:32.282 23766 23766 F DEBUG   :     #24 pc 0000c8ed  /data/app/io.github.nightlyside.rpg-1/oat/arm/base.odex (offset 0xc000)
+01-05 07:59:32.450  2446  2446 W         : debuggerd: resuming target 23679
+01-05 07:59:32.451  2930  2948 I BootReceiver: Copying /data/tombstones/tombstone_01 to DropBox (SYSTEM_TOMBSTONE)
+01-05 07:59:32.451  2930 23776 W ActivityManager:   Force finishing activity io.github.nightlyside.rpg/.MainActivity
+01-05 07:59:32.457  2930 23776 W ActivityManager:   Force finishing activity io.github.nightlyside.rpg/.MainActivity
+01-05 07:59:32.457  2930 23776 W ActivityManager: Duplicate finish request for ActivityRecord{e89b707 u0 io.github.nightlyside.rpg/.MainActivity t283 f}
+01-05 07:59:32.602  2930  3778 I WindowManager: WIN DEATH: Window{8994156 u0 io.github.nightlyside.rpg/io.github.nightlyside.rpg.MainActivity}
+01-05 07:59:32.602  2930  3733 D GraphicsStats: Buffer count: 15
+01-05 07:59:32.602  2930  3813 I ActivityManager: Process io.github.nightlyside.rpg (pid 23679) has died
+01-05 07:59:32.602  2930  3813 D ActivityManager: cleanUpApplicationRecord -- 23679
+01-05 07:59:32.602  2930  3778 W WindowManager: Force-removing child win Window{934954 u0 SurfaceView - io.github.nightlyside.rpg/io.github.nightlyside.rpg.MainActivity} from container Window{8994156 u0 io.github.nightlyside.rpg/io.github.nightlyside.rpg.MainActivity}
+01-05 07:59:32.604  2930  3834 E         : --SENHAL-- sensorhub batch fd:209,handle:0,id:0, flags:0,delay_ms:20,timeout:100, path:/sys/class/meizu/mx_hub/batch
+01-05 07:59:32.608  2930  3249 W WindowManager: Failed looking up window
+01-05 07:59:32.608  2930  3249 W WindowManager: java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@a07252e does not exist
+01-05 07:59:32.608  2930  3249 W WindowManager: 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9460)
+01-05 07:59:32.608  2930  3249 W WindowManager: 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9451)
+01-05 07:59:32.608  2930  3249 W WindowManager: 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1800)
+01-05 07:59:32.608  2930  3249 W WindowManager: 	at android.os.BinderProxy.sendDeathNotice(Binder.java:688)
+01-05 07:59:32.608  2930  3249 I WindowManager: WIN DEATH: null
+01-05 07:59:32.617  2539  2539 I Zygote  : Process 23679 exited due to signal (11)
+01-05 07:59:32.639 27111 27111 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:32.639 27111 27111 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:32.641 27111 27111 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:32.641 27111 27111 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:32.641 27111 27111 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:32.649 27111 27111 E GoogleTagManager: Invalid macro: replace_addons_with_ourapps
+01-05 07:59:32.651 27111 27139 W FlurryAgent: Flurry session resumed for context:com.mobisystems.files.FileBrowser@b5adf4
+01-05 07:59:32.652 27111 27111 E GoogleTagManager: Invalid macro: fc_conversion_iap_id
+01-05 07:59:32.669 27111 23587 E GoogleTagManager: Invalid macro: EnableGaDAUTestEventTracking
+01-05 07:59:32.669 27111 23587 E GoogleTagManager: Invalid macro: EnableFlurryDAUTestEventTracking
+01-05 07:59:32.670 27111 23587 E GoogleTagManager: Invalid macro: EnableDAUTestEventTracking
+01-05 07:59:32.674 27111 27111 D DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+01-05 07:59:32.675 27111 27111 I Ads     : Starting ad request.
+01-05 07:59:32.675 27111 27111 I Ads     : Use AdRequest.Builder.addTestDevice("D4905D083C357A1C9EBE5553DBE3C8EC") to get test ads on this device.
+01-05 07:59:32.688 27111 27111 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:32.688 27111 27111 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:32.690 27111 27111 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:32.690 27111 27111 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:32.690 27111 27111 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:32.693  2930  3751 V PackageManager: DENY ephemeral apps; pkg: com.chrome.canary, status: 2
+01-05 07:59:32.694  2930  2942 V PackageManager: DENY ephemeral apps; pkg: com.chrome.canary, status: 2
+01-05 07:59:32.698 27111 27111 E GoogleTagManager: Invalid macro: replace_addons_with_ourapps
+01-05 07:59:32.699 27111 27111 E GoogleTagManager: Invalid macro: adDeleteDialogGoogleId
+01-05 07:59:32.701 27111 27111 D DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraAdLoaderBuilderCreatorImpl
+01-05 07:59:32.731 27111 27240 D mali_winsys: new_window_surface returns 0x3000,  [1080x1920]-format:1
+01-05 07:59:32.759 27111 27111 E GoogleTagManager: Invalid macro: adNotificationsProvider
+01-05 07:59:32.770 27111 27111 I Ads     : Starting ad request.
+01-05 07:59:32.770 27111 27111 I Ads     : Use AdRequest.Builder.addTestDevice("D4905D083C357A1C9EBE5553DBE3C8EC") to get test ads on this device.
+01-05 07:59:32.772 27111 27249 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:32.780  2550  2919 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+01-05 07:59:32.792 27111 27111 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:32.793 27111 27122 I art     : Background sticky concurrent mark sweep GC freed 16634(822KB) AllocSpace objects, 2(40KB) LOS objects, 16% free, 8MB/9MB, paused 9.884ms total 25.474ms
+01-05 07:59:32.801 27111 27111 E GoogleTagManager: Invalid macro: fc_conversion_iap_id
+01-05 07:59:32.805  2930  3833 V PackageManager: DENY ephemeral apps; pkg: com.chrome.canary, status: 2
+01-05 07:59:32.806  2930  3816 V PackageManager: DENY ephemeral apps; pkg: com.chrome.canary, status: 2
+01-05 07:59:32.807 27111 27111 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:32.809 27111 27111 E GoogleTagManager: Invalid macro: offerPremium
+01-05 07:59:33.897  2527  2669 W SurfaceFlinger: Ignoring duplicate VSYNC event from HWC (t=153770346741445)
